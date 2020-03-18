@@ -1,10 +1,12 @@
+import Image from './wall.jpg';
+
 export const styles = {
   root: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     minHeight: '100vh',
-    background: 'url(images/wall.jpg)',
+    background: `url(${Image})`,
     backgroundSize: 'cover',
   },
   card: {
