@@ -1,6 +1,6 @@
 {
-  "homepage": "http://alirezarezaei29.github.io/resume"
-  "name": "admin-gandom",
+  "homepage": "http://alirezarezaei29.github.io/resume",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
