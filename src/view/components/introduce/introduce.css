@@ -1,0 +1,56 @@
+ul {
+    margin-top: 24px;
+    padding-left: 24px;
+    display: flex
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(0deg, #ddd,#fff);
+    display: block;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: 0 10px 15px rgb(0, 0, 0,0.3);
+    transition: 0.5s;
+}
+
+ul li a:hover{
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.3);
+}
+
+ul li a .fa{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fff,#ddd);
+    border-radius: 50%;
+    line-height: calc(40px - 16px);
+    font-size: 16px;
+    color: #262626;
+    transition: 0.5s;
+}
+.fa-paper-plane {
+    font-size: 13px!important;
+}
+.fa-paper-plane:hover{
+    color: #3b28e2;
+} 
+.fa-twitter:hover{
+    color:  #00aced;
+}
+.fa-linkedin:hover{
+    color:  #007bb6;
+}
+.fa-gitlab:hover{
+    color:  #FC6D27;
+}

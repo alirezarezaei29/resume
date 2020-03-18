@@ -1,0 +1,42 @@
+.icon {
+    width:  50px;
+}
+.path{
+    fill: transparent;
+    stroke-width: 20px;
+    stroke:transparent;
+    stroke-dasharray: 1360;
+    stroke-dashoffset: 0;
+}
+.pathGmail{
+    stroke-width: 10px;
+    stroke:transparent;
+    stroke-dasharray: 1360;
+    stroke-dashoffset: 0;
+}
+.icon:hover .pathGmail{
+    animation: animate 2s linear forwards;
+}
+.icon:hover .path{
+    animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+0%{
+    stroke-dashoffset: 0;
+}
+40%{
+    stroke:rgb(0, 225, 255);
+    stroke-dashoffset: 1360;
+}
+80%{
+    stroke-dashoffset: 2720;
+    stroke:rgb(0, 225, 255);
+    fill: transparent;
+}
+100%{
+    stroke-dashoffset: 2720;
+    
+   stroke: transparent;
+}
+}
