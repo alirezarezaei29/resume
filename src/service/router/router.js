@@ -19,7 +19,7 @@ export const routing = (
     <Router history={history}>
       {/* <Header /> */}
       <Switch>
-        <Route exact path="/" component={Resume} />
+        <Route exact path="/resume" component={Resume} />
         <Route path="/login" component={Login} />
         <Private restricted component={Manager} path="/managers" exact />
         <Route path="*" component={NoMatch} />

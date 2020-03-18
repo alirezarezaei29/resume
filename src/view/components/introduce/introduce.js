@@ -9,6 +9,7 @@ import CallLogo from './call';
 import Gmail from './gmail';
 import './introduce.css';
 import styles from './introduceStyle';
+import image from '../../../assets/me.png';
 
 
 function Introduce(props) {
@@ -45,7 +46,7 @@ function Introduce(props) {
 
         </div>
         <div className={classes.image}>
-          <img className={classes.photo} src="images/me.png" alt="myPix" />
+          <img className={classes.photo} src={image} alt="myPix" />
         </div>
 
       </div>
